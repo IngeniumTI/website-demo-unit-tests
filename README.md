@@ -12,7 +12,11 @@ yum -y install php70 php70-zip
 # install is super easy
 `
 mkdir guzzle-demo ; cd guzzle-demo
+`
+`
 curl -sS https://getcomposer.org/installer | php
+`
+`
 php composer.phar require guzzlehttp/guzzle:^6.1 phpunit/phpunit:^5.0
 `
 
