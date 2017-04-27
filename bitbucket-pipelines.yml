@@ -5,4 +5,4 @@ pipelines:
         script:
           - cd guzzle-demo
           - curl -sS https://getcomposer.org/installer | php && php composer.phar require guzzlehttp/guzzle:^6.1 phpunit/phpunit:^5.0
-          - vendor/bin/phpunit test.php ; echo $? 
+          - vendor/bin/phpunit test.php ; echo $?
